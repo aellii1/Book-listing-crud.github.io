@@ -15,9 +15,9 @@ class CreateBooksTable extends Migration
     {
         Schema::create('books', function (Blueprint $table) {
             $table->id();
-            $table->string("Title");
+            $table->string("Title", 225);
             $table->enum("Genre",['Drama','Historical','Dystopia','Fantasy','Fiction','Horror','Mystery','Poetry','Magical Realism','Sci-Fi','Western','Epic','Fable','Mythology','Thriller','Tragedy','Romance','Satire','Comedy']);
-            $table->string("Author");
+            $table->string("Author", 100);
             $table->integer("Pages");
             $table->date("Publication_Date")->nullable();
             $table->integer("Price");
