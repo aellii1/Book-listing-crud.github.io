@@ -14,7 +14,7 @@ class CreateBooksTable extends Migration
     public function up()
     {
         Schema::create('books', function (Blueprint $table) {
-            $table->id()->primary();
+            $table->id();
             $table->string("Title");
             $table->enum("Genre",['Drama','Historical','Dystopia','Fantasy','Fiction','Horror','Mystery','Poetry','Magical Realism','Sci-Fi','Western','Epic','Fable','Mythology','Thriller','Tragedy','Romance','Satire','Comedy']);
             $table->string("Author");
