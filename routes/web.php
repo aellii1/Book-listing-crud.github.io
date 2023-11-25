@@ -23,4 +23,4 @@ Route::post('/books', 'BooksController@store')->name('books.store');
 
 Route::get('edit/{id}/edit','BooksController@edit');
 
-Route::put('/books/{id}','BooksController@update');
+Route::put('/books/{id}','BooksController@update')->name('books.update');

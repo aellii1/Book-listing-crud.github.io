@@ -64,25 +64,25 @@
             <strong>Genre</strong>
             <select class="form-select" name="Genre" aria-label="Default select example">
                 <option selected disabled>Genre</option>
-                <option value="Drama" {{ old('genre') == 'Drama' ? 'selected' : '' }}>Drama</option>
-                <option value="Historical" {{ old('genre') == 'Historical' ? 'selected' : '' }}>Historical</option>
-                <option value="Dystopia" {{ old('genre') == 'Dystopia' ? 'selected' : '' }}>Dystopia</option>
-                <option value="Fantasy" {{ old('genre') == 'Fantasy' ? 'selected' : '' }}>Fantasy</option>
-                <option value="Fiction" {{ old('genre') == 'Fiction' ? 'selected' : '' }}>Fiction</option>
-                <option value="Horror" {{ old('genre') == 'Horror' ? 'selected' : '' }}>Horror</option>
-                <option value="Mystery" {{ old('genre') == 'Mystery' ? 'selected' : '' }}>Mystery</option>
-                <option value="Poety" {{ old('genre') == 'Poety' ? 'selected' : '' }}>Poety</option>
-                <option value="Magical Realism" {{ old('genre') == 'Magical_Realism' ? 'selected' : '' }}>Magical Realism</option>
-                <option value="Sci-Fi" {{ old('genre') == 'Sci-Fi' ? 'selected' : '' }}>Sci-Fi</option>
-                <option value="Western" {{ old('genre') == 'Western' ? 'selected' : '' }}>Western</option>
-                <option value="Epic" {{ old('genre') == 'Epic' ? 'selected' : '' }}>Epic</option>
-                <option value="Fable" {{ old('genre') == 'Fable' ? 'selected' : '' }}>Fable</option>
-                <option value="Mythology" {{ old('genre') == 'Mythology' ? 'selected' : '' }}>Mythology</option>
-                <option value="Thriller" {{ old('genre') == 'Thriller' ? 'selected' : '' }}>Thriller</option>
-                <option value="Tragedy" {{ old('genre') == 'Tragedy' ? 'selected' : '' }}>Tragedy</option>
-                <option value="Romance" {{ old('genre') == 'Romance' ? 'selected' : '' }}>Romance</option>
-                <option value="Satire" {{ old('genre') == 'Satire' ? 'selected' : '' }}>Satire</option>
-                <option value="Comedy" {{ old('genre') == 'Comedy' ? 'selected' : '' }}>Comedy</option>
+                <option value="Drama" {{ $book->Genre == 'Drama' ? 'selected' : '' }}>Drama</option>
+                <option value="Historical" {{ $book->Genre == 'Historical' ? 'selected' : '' }}>Historical</option>
+                <option value="Dystopia" {{ $book->Genre == 'Dystopia' ? 'selected' : '' }}>Dystopia</option>
+                <option value="Fantasy" {{ $book->Genre == 'Fantasy' ? 'selected' : '' }}>Fantasy</option>
+                <option value="Fiction" {{ $book->Genre == 'Fiction' ? 'selected' : '' }}>Fiction</option>
+                <option value="Horror" {{ $book->Genre == 'Horror' ? 'selected' : '' }}>Horror</option>
+                <option value="Mystery" {{ $book->Genre == 'Mystery' ? 'selected' : '' }}>Mystery</option>
+                <option value="Poety" {{ $book->Genre == 'Poety' ? 'selected' : '' }}>Poety</option>
+                <option value="Magical Realism" {{ $book->Genre == 'Magical_Realism' ? 'selected' : '' }}>Magical Realism</option>
+                <option value="Sci-Fi" {{ $book->Genre == 'Sci-Fi' ? 'selected' : '' }}>Sci-Fi</option>
+                <option value="Western" {{ $book->Genre == 'Western' ? 'selected' : '' }}>Western</option>
+                <option value="Epic" {{ $book->Genre == 'Epic' ? 'selected' : '' }}>Epic</option>
+                <option value="Fable" {{ $book->Genre == 'Fable' ? 'selected' : '' }}>Fable</option>
+                <option value="Mythology" {{ $book->Genre == 'Mythology' ? 'selected' : '' }}>Mythology</option>
+                <option value="Thriller" {{ $book->Genre == 'Thriller' ? 'selected' : '' }}>Thriller</option>
+                <option value="Tragedy" {{ $book->Genre == 'Tragedy' ? 'selected' : '' }}>Tragedy</option>
+                <option value="Romance" {{ $book->Genre == 'Romance' ? 'selected' : '' }}>Romance</option>
+                <option value="Satire" {{ $book->Genre == 'Satire' ? 'selected' : '' }}>Satire</option>
+                <option value="Comedy" {{ $book->Genre == 'Comedy' ? 'selected' : '' }}>Comedy</option>
             </select>
         </div>
     </div>
@@ -101,7 +101,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Pages</strong>
-            <input type="number" name="Pages" class="form-control" placeholder="Pages">
+            <input type="number" name="Pages" class="form-control" value="{{ $book->Pages }}" placeholder="Pages">
         </div>
     </div>
 </div>
@@ -110,7 +110,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Publication Date</strong>
-            <input type="date" name="Publication Date" class="form-control" placeholder="Publication Date">
+            <input type="date" name="Publication Date" class="form-control" value="{{ $book->Publication_Date }}" placeholder="Publication Date">
         </div>
     </div>
 </div>
@@ -119,7 +119,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Price</strong>
-            <input type="number" name="Price" class="form-control" placeholder="Price" value="{{ old('Price') }}">
+            <input type="number" name="Price" class="form-control" value="{{ $book->Price }}" placeholder="Price" >
         </div>
     </div>
 </div>

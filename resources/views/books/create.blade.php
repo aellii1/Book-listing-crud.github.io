@@ -53,25 +53,25 @@
                     <strong>Genre</strong>
                     <select class="form-select" name="Genre" aria-label="Default select example">
                         <option selected disabled>Genre</option>
-                        <option value="Drama" {{ old('genre') == 'Drama' ? 'selected' : '' }}>Drama</option>
-                        <option value="Historical" {{ old('genre') == 'Historical' ? 'selected' : '' }}>Historical</option>
-                        <option value="Dystopia" {{ old('genre') == 'Dystopia' ? 'selected' : '' }}>Dystopia</option>
-                        <option value="Fantasy" {{ old('genre') == 'Fantasy' ? 'selected' : '' }}>Fantasy</option>
-                        <option value="Fiction" {{ old('genre') == 'Fiction' ? 'selected' : '' }}>Fiction</option>
-                        <option value="Horror" {{ old('genre') == 'Horror' ? 'selected' : '' }}>Horror</option>
-                        <option value="Mystery" {{ old('genre') == 'Mystery' ? 'selected' : '' }}>Mystery</option>
-                        <option value="Poety" {{ old('genre') == 'Poety' ? 'selected' : '' }}>Poety</option>
-                        <option value="Magical Realism" {{ old('genre') == 'Magical_Realism' ? 'selected' : '' }}>Magical Realism</option>
-                        <option value="Sci-Fi" {{ old('genre') == 'Sci-Fi' ? 'selected' : '' }}>Sci-Fi</option>
-                        <option value="Western" {{ old('genre') == 'Western' ? 'selected' : '' }}>Western</option>
-                        <option value="Epic" {{ old('genre') == 'Epic' ? 'selected' : '' }}>Epic</option>
-                        <option value="Fable" {{ old('genre') == 'Fable' ? 'selected' : '' }}>Fable</option>
-                        <option value="Mythology" {{ old('genre') == 'Mythology' ? 'selected' : '' }}>Mythology</option>
-                        <option value="Thriller" {{ old('genre') == 'Thriller' ? 'selected' : '' }}>Thriller</option>
-                        <option value="Tragedy" {{ old('genre') == 'Tragedy' ? 'selected' : '' }}>Tragedy</option>
-                        <option value="Romance" {{ old('genre') == 'Romance' ? 'selected' : '' }}>Romance</option>
-                        <option value="Satire" {{ old('genre') == 'Satire' ? 'selected' : '' }}>Satire</option>
-                        <option value="Comedy" {{ old('genre') == 'Comedy' ? 'selected' : '' }}>Comedy</option>
+                        <option value="Drama" {{ old('Genre') == 'Drama' ? 'selected' : '' }}>Drama</option>
+                        <option value="Historical" {{ old('Genre') == 'Historical' ? 'selected' : '' }}>Historical</option>
+                        <option value="Dystopia" {{ old('Genre') == 'Dystopia' ? 'selected' : '' }}>Dystopia</option>
+                        <option value="Fantasy" {{ old('Genre') == 'Fantasy' ? 'selected' : '' }}>Fantasy</option>
+                        <option value="Fiction" {{ old('Genre') == 'Fiction' ? 'selected' : '' }}>Fiction</option>
+                        <option value="Horror" {{ old('Genre') == 'Horror' ? 'selected' : '' }}>Horror</option>
+                        <option value="Mystery" {{ old('Genre') == 'Mystery' ? 'selected' : '' }}>Mystery</option>
+                        <option value="Poety" {{ old('Genre') == 'Poety' ? 'selected' : '' }}>Poety</option>
+                        <option value="Magical Realism" {{ old('Genre') == 'Magical_Realism' ? 'selected' : '' }}>Magical Realism</option>
+                        <option value="Sci-Fi" {{ old('Genre') == 'Sci-Fi' ? 'selected' : '' }}>Sci-Fi</option>
+                        <option value="Western" {{ old('Genre') == 'Western' ? 'selected' : '' }}>Western</option>
+                        <option value="Epic" {{ old('Genre') == 'Epic' ? 'selected' : '' }}>Epic</option>
+                        <option value="Fable" {{ old('Genre') == 'Fable' ? 'selected' : '' }}>Fable</option>
+                        <option value="Mythology" {{ old('Genre') == 'Mythology' ? 'selected' : '' }}>Mythology</option>
+                        <option value="Thriller" {{ old('Genre') == 'Thriller' ? 'selected' : '' }}>Thriller</option>
+                        <option value="Tragedy" {{ old('Genre') == 'Tragedy' ? 'selected' : '' }}>Tragedy</option>
+                        <option value="Romance" {{ old('Genre') == 'Romance' ? 'selected' : '' }}>Romance</option>
+                        <option value="Satire" {{ old('Genre') == 'Satire' ? 'selected' : '' }}>Satire</option>
+                        <option value="Comedy" {{ old('Genre') == 'Comedy' ? 'selected' : '' }}>Comedy</option>
                     </select>
                 </div>
             </div>
