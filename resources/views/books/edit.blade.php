@@ -71,8 +71,8 @@
                 <option value="Fiction" {{ $book->Genre == 'Fiction' ? 'selected' : '' }}>Fiction</option>
                 <option value="Horror" {{ $book->Genre == 'Horror' ? 'selected' : '' }}>Horror</option>
                 <option value="Mystery" {{ $book->Genre == 'Mystery' ? 'selected' : '' }}>Mystery</option>
-                <option value="Poety" {{ $book->Genre == 'Poety' ? 'selected' : '' }}>Poety</option>
-                <option value="Magical Realism" {{ $book->Genre == 'Magical_Realism' ? 'selected' : '' }}>Magical Realism</option>
+                <option value="Poetry" {{ $book->Genre == 'Poetry' ? 'selected' : '' }}>Poetry</option>
+                <option value="Magical Realism" {{ $book->Genre == 'Magical Realism' ? 'selected' : '' }}>Magical Realism</option>
                 <option value="Sci-Fi" {{ $book->Genre == 'Sci-Fi' ? 'selected' : '' }}>Sci-Fi</option>
                 <option value="Western" {{ $book->Genre == 'Western' ? 'selected' : '' }}>Western</option>
                 <option value="Epic" {{ $book->Genre == 'Epic' ? 'selected' : '' }}>Epic</option>

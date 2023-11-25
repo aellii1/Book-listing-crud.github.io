@@ -60,8 +60,8 @@
                         <option value="Fiction" {{ old('Genre') == 'Fiction' ? 'selected' : '' }}>Fiction</option>
                         <option value="Horror" {{ old('Genre') == 'Horror' ? 'selected' : '' }}>Horror</option>
                         <option value="Mystery" {{ old('Genre') == 'Mystery' ? 'selected' : '' }}>Mystery</option>
-                        <option value="Poety" {{ old('Genre') == 'Poety' ? 'selected' : '' }}>Poety</option>
-                        <option value="Magical Realism" {{ old('Genre') == 'Magical_Realism' ? 'selected' : '' }}>Magical Realism</option>
+                        <option value="Poetry" {{ old('Genre') == 'Poetry' ? 'selected' : '' }}>Poetry</option>
+                        <option value="Magical Realism" {{ old('Genre') == 'Magical Realism' ? 'selected' : '' }}>Magical Realism</option>
                         <option value="Sci-Fi" {{ old('Genre') == 'Sci-Fi' ? 'selected' : '' }}>Sci-Fi</option>
                         <option value="Western" {{ old('Genre') == 'Western' ? 'selected' : '' }}>Western</option>
                         <option value="Epic" {{ old('Genre') == 'Epic' ? 'selected' : '' }}>Epic</option>
